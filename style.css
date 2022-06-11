@@ -1,0 +1,304 @@
+ body {
+    display: block;
+    margin: 0px;
+}
+
+.attribution {
+  text-align: center;
+  color: black;
+}
+
+.all {
+margin: 100px;
+}
+
+.header {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.headerone {
+  color: hsl(300, 43%, 22%);
+  margin: auto;
+  font-size: 20px;
+  width: 40%;
+  margin-left: -35px;
+  margin-right: 45px;
+}
+
+p {
+  color: hsl(300, 43%, 22%);
+}
+
+.p {
+  font-weight: bold;
+}
+
+.headinfo {
+  color: hsl(303, 10%, 53%);
+}
+
+.headertwo {
+  color: hsl(300, 43%, 22%);
+margin: auto;
+  width: 60%;
+}
+
+.pone {
+  margin-left: 30px;
+  background-color: hsl(300, 24%, 96%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 440px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.star {
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.ptwo {
+  margin-left: 60px;
+  background-color: hsl(300, 24%, 96%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 440px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  height: 35px;
+}
+
+.pthree {
+  margin-left: 90px;
+  background-color: hsl(300, 24%, 96%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  width: 440px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  padding-right: 5px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.span-prof {
+  color: hsl(333, 80%, 67%);
+}
+
+.profiles {
+  border-radius: 50px;
+  width: 50px;
+}
+
+.span-one {
+  display: flex;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 20px;
+}
+
+.prof-info {
+  margin-left: 10px;
+}
+
+.sec-one {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 5px;
+  padding: 25px;
+  width: 245px;
+  margin-top: 40px;
+  margin-bottom: 120px;
+  margin-right: 100px;
+  margin-left: -35px;
+}
+
+.sec-two {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 5px;
+  padding: 25px;
+  width: 245px;
+  margin-top: 80px;
+  margin-bottom: 80px;  
+     margin-right: 100px;
+}
+
+.sec-three {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 5px;
+  padding: 25px;
+  width: 245px;
+  margin-top: 120px;
+  margin-right: -250px;
+  margin-bottom: 40px;
+}
+
+.about {
+  color: hsl(0, 0%, 100%);
+}
+
+.allprofiles {
+  display: flex;
+  margin-right: 200px;
+}
+
+h1{
+  width: 430px;
+  font-size: 60px;
+}
+@media screen and (max-width: 768px) {
+  .all {
+    margin-left: 0px;
+    display: grid;
+    margin-right: 0px;
+  }
+
+  .attribution {
+    margin-top: -60px;
+    text-align: center;
+    color: black;
+  }
+
+  .header {
+    flex-direction: column;
+    margin-right: 50px;
+    text-align: center;
+  }
+
+  .headerone {
+    color: hsl(300, 43%, 22%);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 280px;
+  }
+
+  .headinfo {
+    color: hsl(303, 10%, 53%);
+    font-size: 15px;
+  }
+
+  .headertwo {
+    color: hsl(300, 43%, 22%);
+    margin-top: 45px;
+    width: 100%;
+  }
+
+  .pone {
+    margin-left: 20px;
+    background-color: hsl(300, 24%, 96%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+    width: 83%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .ptwo {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: hsl(300, 24%, 96%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 83%;
+    border-radius: 5px;
+    height: auto;
+  }
+
+  .pthree {
+    margin-left: 20px;
+    margin-bottom: 60px;
+    background-color: hsl(300, 24%, 96%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    width: 83%;
+    border-radius: 5px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icon {
+    padding-top: 15px;
+  }
+
+  .allprofiles {
+    display: block;
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .sec-one {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    font-size: 17px;
+    line-height: 1.5;
+    height: 150px;
+    margin: auto;
+    width: 75%;
+    margin-bottom: 20px;
+  }
+
+  .sec-two {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    font-size: 17px;
+    line-height: 1.5;
+    margin: auto;
+    width: 75%;
+    height: 150px;
+    margin-bottom: 25px;
+  }
+
+  .sec-three {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    font-size: 17px;
+    width: 75%;
+    height: 150px;
+    line-height: 1.5;
+    margin: auto;
+  }
+
+  .star {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 40px;
+  }
+
+  h1 {
+    width: 100%;
+    font-size: 45px;
+  }
+
+  .p {
+    font-weight: bold;
+    font-size: 22px;
+  }
+}
